@@ -20,10 +20,9 @@ app.use((req, res, next) => {
   next();
 });
 
-// Maintaince Page
-
+// -- Maintenance Page
 // app.use((req, res, next) => {
-//   res.render('maintaince.hbs', {
+//   res.render('maintenance.hbs', {
 //     pageTitle: 'Under Construction'
 //   });
 // });
